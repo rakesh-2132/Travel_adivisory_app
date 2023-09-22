@@ -1,0 +1,119 @@
+/* .cardDiv {
+    position: relative;
+    padding: 2rem 1rem;
+    background: #fff;
+    border-radius: 10px;
+    gap: 3rem;
+
+
+
+
+
+}
+
+label {
+    display: block;
+    color: black;
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.label-toal {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total {
+    color: black;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.input {
+    height: 20px;
+} */
+.a{
+    
+    background-color: #0e3eeb;
+    color: #fff;
+    align-items: center;
+}
+.c{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.post{
+    display: flex;
+    background-image: url("../images/10.jpg");
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.cardDiv {
+    display: flex;
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    gap: 1rem;
+    background-color: #f2f2f2;
+}
+
+.destinationlnput,
+.dateInput,
+.pricelnput {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+.label_toal {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="range"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.total {
+    margin-left: 10px;
+}
+.searchoption{
+    position: absolute;
+    background: #7b94f1;
+    width: max-content;
+    bottom: -0.7rem;
+    column-gap:  .8rem;
+    padding:  5px 1rem;
+    border-radius: 3rem;
+    ;
+    
+}

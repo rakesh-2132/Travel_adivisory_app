@@ -1,0 +1,12 @@
+.pos{
+    background-image: url('../images/12.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.jh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
